@@ -4,11 +4,11 @@ import 'firebase/compat/firestore';
 
 const firebaseConfig = {
     apiKey: "AIzaSyDcTvKYdCcKcOk9s4_WyP6lJh23TnroZr4",
-    authDomain: "PROJECT_ID.firebaseapp.com",
-    projectId: "PROJECT_ID",
-    storageBucket: "PROJECT_ID.appspot.com",
-    messagingSenderId: "SENDER_ID",
-    appId: "APP_ID"
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
