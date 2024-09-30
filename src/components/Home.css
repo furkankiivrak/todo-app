@@ -1,0 +1,136 @@
+/* Home.css */
+.home-container {
+    background-color: #1e1e1e; /* Koyu arka plan rengi */
+    color: #ffffff; /* Beyaz metin rengi */
+    padding: 20px; /* İçerik boşluğu */
+    border-radius: 10px; /* Kenar yuvarlama */
+    max-width: 600px; /* Maksimum genişlik */
+    margin: auto; /* Ortalamak için */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Gölge efekti */
+}
+
+h1 {
+    text-align: center; /* Başlığı ortalar */
+    font-size: 24px; /* Başlık boyutu */
+}
+
+.task-form {
+    display: flex; /* Formu yatay düzenler */
+    justify-content: space-between; /* Elemanlar arasında boşluk bırakır */
+    margin-bottom: 20px; /* Formdan sonra boşluk bırakır */
+}
+
+.task-input {
+    flex: 2; /* Genişlik ayarı */
+    padding: 10px; /* İçerik boşluğu */
+    border: 1px solid #444; /* Kenarlık */
+    border-radius: 5px; /* Kenar yuvarlama */
+    background-color: #2a2a2a; /* Arka plan rengi */
+    color: #fff; /* Metin rengi */
+}
+
+.task-select {
+    flex: 1; /* Genişlik ayarı */
+    padding: 10px; /* İçerik boşluğu */
+    border: 1px solid #444; /* Kenarlık */
+    border-radius: 5px; /* Kenar yuvarlama */
+    background-color: #2a2a2a; /* Arka plan rengi */
+    color: #fff; /* Metin rengi */
+}
+
+.task-button {
+    padding: 10px; /* İçerik boşluğu */
+    border: none; /* Kenarlık yok */
+    border-radius: 5px; /* Kenar yuvarlama */
+    background-color: #007bff; /* Buton arka plan rengi */
+    color: white; /* Beyaz metin rengi */
+    cursor: pointer; /* Fare imleci */
+}
+
+.task-button:hover {
+    background-color: #0056b3; /* Hover etkisi */
+}
+
+.task-list {
+    list-style: none; /* Liste işaretlerini kaldırır */
+    padding: 0; /* Padding'i sıfırlar */
+}
+
+.task-item {
+    display: flex; /* Flex ile düzenleme yapar */
+    justify-content: space-between; /* Elemanlar arasında boşluk bırakır */
+    align-items: center; /* Ortada hizalar */
+    padding: 15px; /* İçerik boşluğu */
+    border: 1px solid #444; /* Kenarlık */
+    margin-bottom: 10px; /* Elemanlar arasında boşluk bırakır */
+    border-radius: 5px; /* Kenar yuvarlama */
+    transition: background-color 0.3s; /* Geçiş efekti */
+}
+
+.task-item:hover {
+    background-color: #333; /* Üzerine gelindiğinde arka plan rengi değişir */
+}
+
+.completed {
+    text-decoration: line-through; /* Üstünü çizer */
+    opacity: 0.5; /* Görev tamamlandığında görünürlüğünü azaltır */
+}
+
+.completed-text {
+    margin-left: 10px; /* Tamamlandı yazısına biraz boşluk ekler */
+    font-weight: bold; /* Yazının kalın olmasını sağlar */
+    color: green; /* Tamamlandı yazısının rengini yeşil yapar */
+}
+
+.task-actions {
+    display: flex; /* Eylem butonlarını yatay diz */
+}
+
+.edit-button,
+.delete-button {
+    padding: 5px 10px; /* İçerik boşluğu */
+    border: none; /* Kenarlık yok */
+    border-radius: 5px; /* Kenar yuvarlama */
+    margin-left: 5px; /* Butonlar arasında boşluk */
+    cursor: pointer; /* Fare imleci */
+}
+
+.edit-button {
+    background-color: #ffc107; /* Düzenle buton rengi */
+    color: black; /* Metin rengi */
+}
+
+.edit-button:hover {
+    background-color: #e0a800; /* Hover efekti */
+}
+
+.delete-button {
+    background-color: #dc3545; /* Sil buton rengi */
+    color: white; /* Metin rengi */
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Hover efekti */
+}
+.logout-button {
+    position: absolute; /* Sabit konum */
+    top: 20px; /* Üstten boşluk */
+    right: 20px; /* Sağdan boşluk */
+    padding: 15px 25px; /* Buton boyutunu büyütmek için boşluklar */
+    background-color: #ff4d4d; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    font-size: 18px; /* Yazı boyutu */
+    border: none; /* Kenarlık yok */
+    border-radius: 50px; /* Yuvarlak kenar */
+    cursor: pointer; /* Fare imleci */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Gölge efekti */
+    transition: all 0.3s ease; /* Geçiş efekti */
+    z-index: 100; /* Üstte görünmesi için */
+}
+
+.logout-button:hover {
+    background-color: #e60000; /* Hover durumunda arka plan rengini değiştir */
+    transform: scale(1.1); /* Hover sırasında büyüt */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* Hover sırasında gölgeyi artır */
+}
+

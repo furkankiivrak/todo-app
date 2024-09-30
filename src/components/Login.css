@@ -1,0 +1,77 @@
+/* Arka plan ve konteyner stili */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2C2C2C; /* Koyu tema arka planı */
+}
+
+/* Login kutusu */
+.login-box {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* Başlık */
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input alanı */
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+/* Login butonu */
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px; /* Yeni ekleme: Alttaki Signup butonu ile mesafe */
+}
+
+/* Login butonu hover */
+.login-button:hover {
+    background-color: #45a049;
+}
+
+/* Signup butonu */
+.signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Signup butonu hover */
+.signup-button:hover {
+    background-color: #1E88E5;
+}
+
+/* Hata mesajı */
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
